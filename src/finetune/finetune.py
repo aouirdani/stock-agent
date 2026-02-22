@@ -143,11 +143,9 @@ def train():
     # Trainer
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
         train_dataset=dataset,
-        dataset_text_field="text",
-        max_seq_length=512,
         args=TRAINING_ARGS,
+        processing_class=tokenizer,
     )
 
     console.print("\n[bold cyan]🏋️  Training started...[/bold cyan]")
