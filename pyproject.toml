@@ -1,0 +1,26 @@
+[project]
+name = "stock-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.12.0",
+    "beautifulsoup4>=4.14.3",
+    "datasets>=4.5.0",
+    "dvc>=3.66.1",
+    "feedparser>=6.0.12",
+    "pandas>=3.0.1",
+    "peft>=0.18.1",
+    "playwright>=1.58.0",
+    "protobuf>=6.33.5",
+    "pydantic>=2.12.5",
+    "requests>=2.32.5",
+    "rich>=14.3.3",
+    "schedule>=1.2.2",
+    "sentencepiece>=0.2.1",
+    "torch>=2.10.0",
+    "transformers>=5.2.0",
+    "trl>=0.28.0",
+    "yfinance>=1.2.0",
+]
