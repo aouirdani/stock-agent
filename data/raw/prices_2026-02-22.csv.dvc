@@ -1,0 +1,5 @@
+outs:
+- md5: 78ee9be1d821201f869643cb7d47de24
+  size: 808
+  hash: md5
+  path: prices_2026-02-22.csv

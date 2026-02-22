@@ -1,0 +1,5 @@
+outs:
+- md5: e213120f50143ca19c49ec4448bdfcd3
+  size: 17159
+  hash: md5
+  path: news_2026-02-22.csv
